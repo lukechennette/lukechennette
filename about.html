@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>About Me – Luke Chennette</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { color: #333; }
-    a { color: #0366d6; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      background-image: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 10px,
+        #f0f0f0 10px,
+        #f0f0f0 20px
+      );
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+    img.profile {
+      max-width: 200px;
+      border-radius: 50%;
+    }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
   <h1>About Me</h1>
-  <p>I'm Luke Chennette, an undergraduate electrical engineering student at Queen’s University with a strong foundation in engineering design, problem-solving, and technical communication. My academic experience is complemented by a 16-month professional internship, where I worked hands-on with technical hardware and software, managed real-world projects, and developed efficient, goal-driven plans.</p>
+  <img src="images/profile.jpg" alt="Luke Chennette" class="profile" />
+  <p>I'm an undergraduate electrical engineering student at Queen’s University with a strong foundation in engineering design, problem-solving, and technical communication. My academic experience is complemented by a 16-month professional internship, where I worked hands-on with technical hardware and software, managed real-world projects, and developed efficient, goal-driven plans.</p>
   <p>This school year, I completed a capstone project focused on the design and development of an audio amplification and effect system, deepening my technical expertise and passion for audio engineering. I am eager to continue advancing my skills through graduate studies, contributing to research and innovation in the field of audio technology.</p>
   <p>Outside of academics, I'm a multi-instrumentalist, singer, songwriter, and producer. I've released two musical projects (an EP and an album), both fully self-recorded, produced, and mixed.</p>
-  <p><a href="index.html">← Back to Home</a></p>
 </body>
 </html>
