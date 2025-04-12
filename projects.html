@@ -1,33 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Projects – Luke Chennette</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { color: #333; }
-    .project { margin-bottom: 20px; }
-    a { color: #0366d6; text-decoration: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      background-color: #f0f0f0;
+      background-image: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 10px,
+        #f0f0f0 10px,
+        #f0f0f0 20px
+      );
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+    .project {
+      margin-bottom: 40px;
+    }
+    .project img {
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+
   <h1>Projects</h1>
 
   <div class="project">
     <h2>🎸 Capstone Project: Electric Guitar Effects System</h2>
+    <img src="images/capstone.jpg" alt="Capstone Project" />
     <p>Designed and implemented a working prototype for an electric guitar amplification and signal processing system, integrating analog and digital circuits to achieve desired sound effects within budget constraints.</p>
+    <video width="640" height="360" controls>
+      <source src="videos/capstone-demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
   <div class="project">
     <h2>🚗 Relectric Design Team</h2>
-    <p>Collaborated on the design of power circuits and control logic for an electric vehicle converted from a gas vehicle, working within the electrical sub-team to optimize design and output.</p>
-  </div>
-
-  <div class="project">
-    <h2>🎶 Music Production</h2>
-    <p>Released two self-produced musical projects: an EP and an album, fully self-recorded, produced, and mixed, showcasing skills in audio recording and mixing using Pro Tools.</p>
-  </div>
-
-  <p><a href="index.html">← Back to Home</a></p>
-</body>
-</html>
+    <img src="images/relectric.jpg" alt="Relectric Design Team" />
+    <p>Collaborated on the design of power circuits and control logic for an electric vehicle converted from a gas vehicle, working within
+::contentReference[oaicite:18]{index=18}
+ 
